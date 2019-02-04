@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        background: url("spacebackground.gif") repeat;
+    }
+
+    h1 {
+        font-size: 300px;
+    }
+
+    .texty {
+        animation: color-change 1s infinite;
+    }
+
+    #bottomfire {
+        position: absolute;
+        background: url("bigfire.gif");
+        height: 100px;
+        width: 100%;
+        left: 0%;
+        bottom: 0%
+    }
+
+    @keyframes color-change {
+        0% {
+            color: magenta;
+        }
+        20% {
+            color: lime;
+        }
+        40% {
+            color: yellow;
+        }
+        60% {
+            color: orange;
+        }
+        80% {
+            color: cyan;
+        }
+        100% {
+            color: magenta;
+        }
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>filth.biz</title>
+</head>
+<body>
+<div class="texty" style="text-align: center;">
+    <h1><i><u>
+        FILTH
+    </u></i></h1>
+</div>
+<div id="bottomfire"></div>
+</body>
+</html>
